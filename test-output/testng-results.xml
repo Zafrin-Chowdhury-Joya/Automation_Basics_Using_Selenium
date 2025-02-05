@@ -1,41 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-03T23:41:49 BDT" name="Default suite" finished-at="2025-02-03T23:42:22 BDT" duration-ms="32802">
+  <suite started-at="2025-02-06T00:35:09 BDT" name="Default suite" finished-at="2025-02-06T00:35:17 BDT" duration-ms="7723">
     <groups>
     </groups>
-    <test started-at="2025-02-03T23:41:49 BDT" name="Default test" finished-at="2025-02-03T23:42:22 BDT" duration-ms="32802">
-      <class name="InteractingWithWebElement.WebElementExamples">
-        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:InteractingWithWebElement.WebElementExamples@43bc63a3]" started-at="2025-02-03T23:41:40 BDT" name="startChromeBrowser" finished-at="2025-02-03T23:41:49 BDT" duration-ms="9102" status="PASS">
+    <test started-at="2025-02-06T00:35:09 BDT" name="Default test" finished-at="2025-02-06T00:35:17 BDT" duration-ms="7723">
+      <class name="BrowserCommands.getCurrentTitle">
+        <test-method is-config="true" signature="startChromeBrowser()[pri:0, instance:BrowserCommands.getCurrentTitle@3c41ed1d]" started-at="2025-02-06T00:35:02 BDT" name="startChromeBrowser" finished-at="2025-02-06T00:35:09 BDT" duration-ms="6946" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startChromeBrowser -->
-        <test-method is-config="true" signature="openUrl()[pri:0, instance:InteractingWithWebElement.WebElementExamples@43bc63a3]" started-at="2025-02-03T23:41:49 BDT" name="openUrl" finished-at="2025-02-03T23:41:53 BDT" duration-ms="3216" status="PASS">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:BrowserCommands.getCurrentTitle@3c41ed1d]" started-at="2025-02-06T00:35:09 BDT" name="openUrl" finished-at="2025-02-06T00:35:11 BDT" duration-ms="2394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method signature="sendKeys()[pri:0, instance:InteractingWithWebElement.WebElementExamples@43bc63a3]" started-at="2025-02-03T23:41:53 BDT" name="sendKeys" finished-at="2025-02-03T23:41:58 BDT" duration-ms="5726" status="PASS">
+        <test-method signature="getCurrentURL()[pri:0, instance:BrowserCommands.getCurrentTitle@3c41ed1d]" started-at="2025-02-06T00:35:11 BDT" name="getCurrentURL" finished-at="2025-02-06T00:35:17 BDT" duration-ms="5278" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sendKeys -->
-        <test-method signature="clear()[pri:1, instance:InteractingWithWebElement.WebElementExamples@43bc63a3]" started-at="2025-02-03T23:41:58 BDT" name="clear" finished-at="2025-02-03T23:42:12 BDT" duration-ms="13349" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clear -->
-        <test-method signature="click()[pri:2, instance:InteractingWithWebElement.WebElementExamples@43bc63a3]" started-at="2025-02-03T23:42:12 BDT" name="click" finished-at="2025-02-03T23:42:17 BDT" duration-ms="5378" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- click -->
-        <test-method signature="getAttribute()[pri:3, instance:InteractingWithWebElement.WebElementExamples@43bc63a3]" started-at="2025-02-03T23:42:17 BDT" name="getAttribute" finished-at="2025-02-03T23:42:22 BDT" duration-ms="5059" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAttribute -->
-        <test-method is-config="true" signature="closeChromeBrowser()[pri:0, instance:InteractingWithWebElement.WebElementExamples@43bc63a3]" started-at="2025-02-03T23:42:22 BDT" name="closeChromeBrowser" finished-at="2025-02-03T23:42:22 BDT" duration-ms="99" status="PASS">
+        </test-method> <!-- getCurrentURL -->
+        <test-method is-config="true" signature="closeChromeBrowser()[pri:0, instance:BrowserCommands.getCurrentTitle@3c41ed1d]" started-at="2025-02-06T00:35:17 BDT" name="closeChromeBrowser" finished-at="2025-02-06T00:35:17 BDT" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeChromeBrowser -->
-      </class> <!-- InteractingWithWebElement.WebElementExamples -->
+      </class> <!-- BrowserCommands.getCurrentTitle -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

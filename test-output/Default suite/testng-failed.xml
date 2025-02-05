@@ -3,15 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="WebElement_Locators.LocateByClassName">
+      <class name="WebPages.Navigation">
         <methods>
-          <include name="OpenUrl"/>
-          <include name="OpenUrl"/>
-          <include name="LocateById"/>
-          <include name="closeBrowser"/>
-          <include name="CrossBrowser"/>
+          <include name="openUrl"/>
+          <include name="closeChromeBrowser"/>
+          <include name="sendKeys"/>
+          <include name="startChromeBrowser"/>
         </methods>
-      </class> <!-- WebElement_Locators.LocateByClassName -->
+      </class> <!-- WebPages.Navigation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

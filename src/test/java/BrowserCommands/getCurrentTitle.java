@@ -1,9 +1,6 @@
-package WebPages;
+package BrowserCommands;
 
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
@@ -12,9 +9,9 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Navigation {
+public class getCurrentTitle {
 
-	String url = "https://www.daraz.com.bd/chairs/rfl/";
+	String url = "https://www.tutorialspoint.com/selenium/practice/selenium_automation_practice.php";
 	WebDriver driver;
 
 	@BeforeSuite
@@ -30,24 +27,9 @@ public class Navigation {
 	}
 
 	@Test(priority =0)
-	public void sendKeys() throws InterruptedException {
-		WebElement xpathLocator = driver.findElement(By.xpath("(//*[name()='svg'])[1]"));
-		xpathLocator.click();
-		Thread.sleep(500);
-		
-		driver.navigate().back();
-		Thread.sleep(500);
-
-		driver.navigate().forward();
-		Thread.sleep(500);
-		driver.navigate().back();
-		Thread.sleep(500);
-
-		driver.navigate().forward();
-		Thread.sleep(500);
-		driver.navigate().refresh();
-		Thread.sleep(5000);
-
+	public void getCurrentURL() throws InterruptedException {
+			System.out.println(driver.getCurrentUrl());
+			Thread.sleep(5000);
 		
 		
 	}
